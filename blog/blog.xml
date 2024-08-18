@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+    <channel>
+        <title>WarMapblog</title>
+        <link>https://joranbuddaert.ikdoeict.be/blog/blog.html</link>
+        <description>Alle wat ik heb geleerd van welke topic</description>
+        <language>nl-BE</language>
+
+        <item>
+            <title>1. Web Workers</title>
+            <link>https://joranbuddaert.ikdoeict.be/blog#title1</link>
+            <description>Web Workers zijn essentieel voor het verbeteren van de prestaties van webapplicaties door zware taken in de achtergrond uit te voeren zonder de hoofddraad van de browser te blokkeren.</description>
+        </item>
+
+        <item>
+            <title>2. OpenLayers</title>
+            <link>https://joranbuddaert.ikdoeict.be/blog#title2</link>
+            <description>OpenLayers is een krachtige en flexibele JavaScript-bibliotheek voor het werken met interactieve kaarten op het web, met ondersteuning voor verschillende kaartbronnen en formaten zoals WMS en GeoJSON.</description>
+        </item>
+
+        <item>
+            <title>3. GSAP</title>
+            <link>https://joranbuddaert.ikdoeict.be/blog#title3</link>
+            <description>GSAP is een krachtige JavaScript-bibliotheek waarmee je complexe animaties kunt uitvoeren op een eenvoudige manier zonder de prestaties van de site te beïnvloeden. Je moet spelen met de tijden om vloeiende animaties te krijgen.</description>
+        </item>
+
+        <item>
+            <title>4. Google Tag Manager</title>
+            <link>https://joranbuddaert.ikdoeict.be/blog#title4</link>
+            <description>Google Tag Manager maakt het mogelijk om tags te activeren op basis van triggers op de website, zoals interacties van gebruikers, en deze data te verzenden naar Google Analytics voor analyse.</description>
+        </item>
+
+        <item>
+            <title>5. Google Analytics</title>
+            <link>https://joranbuddaert.ikdoeict.be/blog#title4</link>
+            <description>Google Analytics stelt je in staat om gedetailleerde informatie over bezoekers van je website te analyseren, zoals hun locatie en interacties met de site.</description>
+        </item>
+
+        <item>
+            <title>6. Auto-discoverable RSS-feed</title>
+            <link>https://joranbuddaert.ikdoeict.be/blog#title6</link>
+            <description>Een auto-discoverable RSS-feed wordt automatisch gedetecteerd door browsers en RSS-readers wanneer een link-element is toegevoegd aan de head van de HTML-pagina.</description>
+        </item>
+
+        <item>
+            <title>7. Functional CSS</title>
+            <link>https://joranbuddaert.ikdoeict.be/blog#title7</link>
+            <description>Functional CSS maakt gebruik van kleine, herbruikbare CSS-klassen om specifieke stijlen toe te passen, wat leidt tot snellere ontwikkeling en consistentere code.</description>
+        </item>
+
+        <item>
+            <title>8. WCAG 2.2 niveau AA</title>
+            <link>https://joranbuddaert.ikdoeict.be/blog#title5</link>
+            <description>Het voldoen aan de WCAG 2.2 niveau AA richtlijnen is essentieel om websites toegankelijk te maken voor een breed scala aan gebruikers, inclusief mensen met beperkingen.</description>
+        </item>
+
+        <item>
+            <title>9. OpenLayers Setup Map</title>
+            <link>https://joranbuddaert.ikdoeict.be/blog#title3</link>
+            <description>Een video-tutorial over het instellen van een kaart met OpenLayers.</description>
+        </item>
+
+        <item>
+            <title>10. OpenLayers Vector Layer Toevoegen</title>
+            <link>https://joranbuddaert.ikdoeict.be/blog#title3</link>
+            <description>Een video-tutorial over het toevoegen van een vectorlaag in OpenLayers.</description>
+        </item>
+
+        <item>
+            <title>11. GSAP Counter Opstarten</title>
+            <link>https://joranbuddaert.ikdoeict.be/blog#title3</link>
+            <description>Een video-tutorial over het starten van een counter-animatie met GSAP.</description>
+        </item>
+
+        <item>
+            <title>12. Google Tag Manager Click Tracking</title>
+            <link>https://joranbuddaert.ikdoeict.be/blog#title4</link>
+            <description>Een video-tutorial over het instellen van click tracking met Google Tag Manager.</description>
+        </item>
+
+        <item>
+            <title>13. Functional CSS Introductie</title>
+            <link>https://joranbuddaert.ikdoeict.be/blog#title7</link>
+            <description>Een introductie tot de basisprincipes van Functional CSS.</description>
+        </item>
+    </channel>
+</rss>

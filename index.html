@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-CPCM6D0JX8"></script>
+    <script> window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'G-CPCM6D0JX8');</script>
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start': new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src= 'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f); })(window,document,'script','dataLayer','GTM-NGFLCMFC');</script>
+    <!-- End Google Tag Manager -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="refresh" content="300"> <!-- Verleng de sessietijd -->
+    <title>warmap</title>
+    <link rel="icon" type="images/x-icon" href="/images/logo.png">
+    <link rel="stylesheet" href="index.css">
+    <script src="main.js"></script>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/ol@v8.2.0/ol.css">
+    <script src="https://cdn.jsdelivr.net/npm/ol@v8.2.0/dist/ol.js"></script>
+    <script src="https://unpkg.com/ol-mapbox-style@12.1.1/dist/olms.js"></script>
+    <noscript>
+        JavaScript is uitgeschakeld in uw browser. Schakel het in om de volledige ervaring te krijgen.
+    </noscript>
+</head>
+<body class="background">
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NGFLCMFC" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+
+    <h1 class="counter">2024</h1>
+    <div class="overlay"></div>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+    <script src="test.js"></script>
+    
+    
+    <!-- Header -->
+    <header class="m-0 flex flexR flexS">
+            <div>
+                <a href="./index.html"><img class="logo" src="./images/logo.png" alt="logo"></a>
+            </div>
+            <nav class="flex flexC p0">
+                <a class="space1 white" href="./index.html">Home</a>
+                <a class="space1 white" href="./blog/">Blog</a>
+            </nav>
+    </header>
+    <h1 class="flex flexC white">Warmap</h1>
+    <div class="controls margin-std flex flexS">
+        <button id="toggleLayer1Btn" class="white" aria-label="Kaart 1940 10 Mei"><h4>1940 10may</h4></button>
+        <button id="toggleLayer2Btn" class="white" aria-label="Kaart 1940 21 Mei"><h4>1940 21may</h4></button>
+        <button id="toggleLayer3Btn" class="white" aria-label="Kaart 1940 4 Juni"><h4>1940 4jun</h4></button>
+        <button id="toggleLayer4Btn" class="white" aria-label="Kaart 1940 12 Juni"><h4>1940 12jun</h4></button>
+        <button id="toggleLayer5Btn" class="white" aria-label="Kaart 1940 25 Juni"><h4>1940 25jun</h4></button>
+        <button id="toggleLayer6Btn" class="white" aria-label="Kaart 1944 12 Juni"><h4>1944 12jun</h4></button>
+        <button id="toggleLayer7Btn" class="white" aria-label="Kaart 1944 31 Juli"><h4>1944 31jul</h4></button>
+        <button id="toggleLayer8Btn" class="white" aria-label="Kaart 1944 13 Augustus"><h4>1944 13aug</h4></button>
+        <button id="toggleLayer9Btn" class="white" aria-label="Kaart 1944 25 Augustus"><h4>1944 25aug</h4></button>
+        <button id="toggleLayer10Btn" class="white" aria-label="Kaart 1944 26 Augustus"><h4>1944 26aug</h4></button>
+    </div>
+    <div class="flex flexC date">
+        <h2>1940 10may</h2>
+        <h2>1940 21may</h2>
+        <h2>1940 4jun</h2>
+        <h2>1940 12jun</h2>
+        <h2>1940 25jun</h2>
+        <h2>1944 12jun</h2>
+        <h2>1944 31jul</h2>
+        <h2>1944 13aug</h2>
+        <h2>1944 25aug</h2>
+        <h2>1944 26aug</h2>
+        <h2 class="hidden">empty</h2>
+    </div>
+    <div class="margin-std" id="map"></div>
+    <script src="./script.js"></script>
+    <footer>
+        <div class="flex margin-std">
+            <!-- Bedrijf informatie -->
+            <div class="footer-section">
+                <h3 class="white">Bedrijfs&shy;naam</h3>
+                <p class="white">Adres: Straatnaam 123, 1234 AB Stad</p>
+                <p class="white">Telefoon: +31 6 12345678</p>
+                <p class="white">Email: info@warmap.be</p>
+            </div>
+
+            <!-- Navigatie -->
+            <div class="footer-section">
+                <h3 class="white">Snelkoppel&shy;ingen</h3>
+                <ul>
+                    <li><a class="decoration-none white" href="#home">Home</a></li>
+                    <li><a class="decoration-none white" href="./blog/">Blog</a></li>
+                    <li><a class="decoration-none white"  href="./blog/blog.xml">RSS-feed Blog</a></li>
+                </ul>
+            </div>
+
+            <!-- Social Media -->
+            <div class="footer-section">
+                <h3 class="white">Volg ons</h3>
+                <a class="decoration-none pink" href="https://www.facebook.com">Facebook</a>
+                <a class="decoration-none pink" href="https://www.twitter.com">Twitter</a>
+                <a class="decoration-none pink" href="https://www.instagram.com">Instagram</a>
+            </div>
+
+            <!-- Toegankelijkheidsverklaring -->
+            <div class="footer-section">
+                <h3 class="white">Toegankelijkheids&shy;verklaring</h3>
+                <ul>
+                    <li><a class="decoration-none white" href="./verkaring/">Verklaring</a></li>
+                    <li><a class="decoration-none white" href="./report/">Report</a></li>
+                </ul>
+            </div>
+        </div>
+        
+        <!-- Copyright -->
+        <div class="footer-copyright">
+            <p class="white">&copy; 2024 warmap. Alle rechten voorbehouden.</p>
+        </div>
+    </footer>
+
+    
+</body>
+</html>
