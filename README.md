@@ -4,11 +4,6 @@
 
 Met deze website kan je de westerse grens zien van duidsland die in de tijd veranderde tijdens de Tweede wereldoorlog. De website is toegankelijk voor mensen met een handicap. De website is gebouwd met HTML, CSS, en JavaScript.
 
-## Inhoudsopgave
-
-- [Installatie](#installatie)
-- [Gebruik](#gebruik)
-
 
 ## Installatie google analytics & google tag manager
 
